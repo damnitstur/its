@@ -27,7 +27,7 @@ document.getElementById('idCardForm').addEventListener('submit', function(event)
                 ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
                 const frame = new Image();
-                frame.src = '/image/border.png';
+                frame.src = '/images/border.png';
                 frame.onload = function() {
                     console.log("Frame loaded");
                     ctx.drawImage(frame, 0, 0, canvas.width, canvas.height);
